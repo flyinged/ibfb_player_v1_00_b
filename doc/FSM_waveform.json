@@ -1,0 +1,16 @@
+{signal: [
+  {name: 'i_clk',           wave: 'P.....|..........'},
+  {name: 'i_start',         wave: '010...|..........'},
+  {name: 'fsm_s',           wave: '=.====|...======.', data: ["0","1","2","3","4","5","1","2","3","4","0"]},
+  {name: 'ram_read_a',      wave: '=.===.|...======.', data: ["0","1","2","3","4","5","6","7","8","0"]},
+  {name: 'start_time',      wave: 'x..=..|.....x....', data: ["T0","T1"]},
+  {name: 'send_packet',     wave: 'x..0..|1....x....'},
+  {name: 'o_tx_valid',      wave: '0.....|.1..0.....'},
+  {name: 'i_sop',           wave: '0.....|..1.0.....'},
+  {name: 'end_of_sequence', wave: '0.....|.......10.'},
+  {name: 'pkt_out.ctrl',    wave: 'x..x=.|......=..x', data: ["CTRL0","EOS"]},
+  {name: 'pkt_out.bpm',     wave: 'x...=.|......x...', data: ["BPM0","X"]},
+  {name: 'pkt_out.bucket',  wave: 'x...=.|......x...', data: ["BKT0","X"]},
+  {name: 'pkt_out.xpos',    wave: 'x....=|.......x..', data: ["X0","X"]},
+  {name: 'pkt_out.ypos',    wave: 'x.....=|.......x.', data: ["Y0","X"]}
+]}

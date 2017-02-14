@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CSP_SET	./user_logic.vhd	/^	constant CSP_SET : natural := 0;$/;"	c
+FW_VERSION	./user_logic.vhd	/^	constant FW_VERSION : std_logic_vector(31 downto 0) := X"00000008";$/;"	c
+IPIF_ARD_ADDR_RANGE_ARRAY	./ibfb_player.vhd	/^  constant IPIF_ARD_ADDR_RANGE_ARRAY      : SLV64_ARRAY_TYPE     := $/;"	c
+IPIF_ARD_NUM_CE_ARRAY	./ibfb_player.vhd	/^  constant IPIF_ARD_NUM_CE_ARRAY          : INTEGER_ARRAY_TYPE   := $/;"	c
+IPIF_BURSTLENGTH_TYPE	./ibfb_player.vhd	/^  constant IPIF_BURSTLENGTH_TYPE          : integer              := 0;$/;"	c
+IPIF_CACHLINE_ADDR_MODE	./ibfb_player.vhd	/^  constant IPIF_CACHLINE_ADDR_MODE        : integer              := 0;$/;"	c
+IPIF_SLV_DWIDTH	./ibfb_player.vhd	/^  constant IPIF_SLV_DWIDTH                : integer              := C_SPLB_NATIVE_DWIDTH;$/;"	c
+IPIF_WR_BUFFER_DEPTH	./ibfb_player.vhd	/^  constant IPIF_WR_BUFFER_DEPTH           : integer              := 16;$/;"	c
+K_BAD	./user_logic_SIM.vhd	/^  constant K_BAD   : std_logic_vector(7 downto 0)                 := X"5C";$/;"	c
+LOW_REG	./user_logic.vhd	/^	constant LOW_REG       : std_logic_vector(0 to C_NUM_REG - 1) := (others => '0');$/;"	c
+USER_CE_INDEX	./ibfb_player.vhd	/^  constant USER_CE_INDEX                  : integer              := USER_SLV_CE_INDEX;$/;"	c
+USER_CS_INDEX	./ibfb_player.vhd	/^  constant USER_CS_INDEX                  : integer              := USER_MEM0_CS_INDEX;$/;"	c
+USER_MEM0_CS_INDEX	./ibfb_player.vhd	/^  constant USER_MEM0_CS_INDEX             : integer              := 1;$/;"	c
+USER_NUM_MEM	./ibfb_player.vhd	/^  constant USER_NUM_MEM                   : integer              := 1;$/;"	c
+USER_NUM_REG	./ibfb_player.vhd	/^  constant USER_NUM_REG                   : integer              := USER_SLV_NUM_REG;$/;"	c
+USER_SLV_AWIDTH	./ibfb_player.vhd	/^  constant USER_SLV_AWIDTH                : integer              := C_SPLB_AWIDTH;$/;"	c
+USER_SLV_BASEADDR	./ibfb_player.vhd	/^  constant USER_SLV_BASEADDR              : std_logic_vector     := C_BASEADDR;$/;"	c
+USER_SLV_CE_INDEX	./ibfb_player.vhd	/^  constant USER_SLV_CE_INDEX              : integer              := calc_start_ce_index(IPIF_ARD_NUM_CE_ARRAY, USER_SLV_CS_INDEX);$/;"	c
+USER_SLV_CS_INDEX	./ibfb_player.vhd	/^  constant USER_SLV_CS_INDEX              : integer              := 0;$/;"	c
+USER_SLV_DWIDTH	./ibfb_player.vhd	/^  constant USER_SLV_DWIDTH                : integer              := C_SPLB_NATIVE_DWIDTH;$/;"	c
+USER_SLV_HIGHADDR	./ibfb_player.vhd	/^  constant USER_SLV_HIGHADDR              : std_logic_vector     := C_HIGHADDR;$/;"	c
+USER_SLV_NUM_REG	./ibfb_player.vhd	/^  constant USER_SLV_NUM_REG               : integer              := 64;$/;"	c
+ZERO	./user_logic.vhd	/^	constant ZERO                                                                  : unsigned(31 downto 0) := (others => '0');$/;"	c
+ZERO_ADDR_PAD	./ibfb_player.vhd	/^  constant ZERO_ADDR_PAD                  : std_logic_vector(0 to 31) := (others => '0');$/;"	c
+array16	./user_logic.vhd	/^	type array16 is array (natural range <>) of std_logic_vector(15 downto 0);$/;"	t
+ibfb_comm_pkt_vec	./user_logic.vhd	/^	type ibfb_comm_pkt_vec is array (natural range <>) of ibfb_comm_packet;$/;"	t
+ibfb_fb_apply_correction	./pkg_ibfb_player_fb.vhd	/^entity ibfb_fb_apply_correction is$/;"	e
+ibfb_packet_player	./ibfb_packet_player.vhd	/^entity ibfb_packet_player is$/;"	e
+ibfb_player	./ibfb_player.vhd	/^entity ibfb_player is$/;"	e
+ram_addr_vec_t	./user_logic.vhd	/^	type ram_addr_vec_t is array (natural range <>) of std_logic_vector(PLAYER_RAM_ADDR_W - 3 downto 0);$/;"	t
+slv_reg_type	./user_logic.vhd	/^	type slv_reg_type is array (0 to C_NUM_REG - 1) of std_logic_vector(C_SLV_DWIDTH - 1 downto 0);$/;"	t
+uarray16	./user_logic.vhd	/^	type uarray16 is array (natural range <>) of unsigned(15 downto 0);$/;"	t
+user_logic	./user_logic.vhd	/^entity user_logic is$/;"	e
+user_logic	./user_logic_SIM.vhd	/^entity user_logic is$/;"	e

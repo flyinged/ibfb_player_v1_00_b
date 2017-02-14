@@ -1,0 +1,9 @@
+C:/temp/G/XFEL/14_Firmware/22_Library/EDKLib/hw/PSI/pcores/ibfb_player_v1_00_b/modelsim/sim_components.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none C:/temp/G/XFEL/14_Firmware/22_Library/EDKLib/hw/PSI/pcores/ibfb_player_v1_00_b/modelsim/sim_components.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+** Error: C:/temp/G/XFEL/14_Firmware/22_Library/EDKLib/hw/PSI/pcores/ibfb_player_v1_00_b/modelsim/sim_components.vhd(7): near "PORT": (vcom-1576) expecting IS.
+
+} {7.0 8.0} {}}

@@ -1,0 +1,13 @@
+run
+-ifmt VHDL
+-ent FIFO_W32D16_FWFT_DIST_exdes 
+-p xc5vfx70t-ff1136-2
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn FIFO_W32D16_FWFT_DIST_exdes 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain

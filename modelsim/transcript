@@ -1,0 +1,635 @@
+# Reading C:/modeltech64_10.2b/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.2b May 17 2013 
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile C:/temp/G/XFEL/14_Firmware/22_Library/EDKLib/hw/PSI/pcores/ibfb_player_v1_00_a/modelsim/ibfb_player.mpf 
+# Loading project ibfb_player
+dir *.do
+#  Volume in drive C is System
+#  Volume Serial Number is 321E-6536
+# 
+#  Directory of C:\temp\G\XFEL\14_Firmware\22_Library\EDKLib\hw\PSI\pcores\ibfb_player_v1_00_a\modelsim
+# 
+# 09.03.2016  09:31             2'434 run.do
+# 09.03.2016  09:52             2'455 run_bpm1.do
+# 09.03.2016  09:56             2'281 run_bpm2.do
+# 11.03.2016  14:28             1'398 run_player.do
+# 09.03.2016  09:31             6'369 wave_bpm1.do
+# 09.03.2016  09:56             5'930 wave_bpm2.do
+# 11.03.2016  14:55             5'500 wave_player.do
+#                7 File(s)         26'367 bytes
+#                0 Dir(s)  52'112'232'448 bytes free
+edit run_bpm1.do
+edit run_player.do
+do run_player.do
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram_infer
+# -- Compiling architecture syn of ram_infer
+# -- Compiling entity ram_infer_dual
+# -- Compiling architecture syn of ram_infer_dual
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package pkg_crc
+# -- Compiling entity crc32_in32
+# -- Compiling architecture imp_crc of crc32_in32
+# -- Compiling entity crc32_in6
+# -- Compiling architecture imp_crc of crc32_in6
+# -- Compiling entity crc32_in4
+# -- Compiling architecture imp_crc of crc32_in4
+# -- Compiling entity crc8_in32
+# -- Compiling architecture imp_crc of crc8_in32
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package ibfb_comm_package
+# -- Loading package ibfb_comm_package
+# -- Loading package pkg_crc
+# -- Compiling entity ibfb_packet_tx
+# -- Compiling architecture rtl of ibfb_packet_tx
+# -- Compiling entity ibfb_packet_rx
+# -- Compiling architecture rtl of ibfb_packet_rx
+# -- Compiling entity ibfb_rx_packet_stat
+# -- Compiling architecture rtl of ibfb_rx_packet_stat
+# -- Compiling entity ibfb_packet_filter
+# -- Compiling architecture rtl of ibfb_packet_filter
+# -- Compiling entity ibfb_packet_buffer
+# -- Compiling architecture rtl of ibfb_packet_buffer
+# -- Compiling entity ibfb_packet_router
+# -- Compiling architecture rtl of ibfb_packet_router
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ibfb_comm_package
+# -- Compiling entity ibfb_packet_player
+# -- Compiling architecture rtl of ibfb_packet_player
+# Model Technology ModelSim SE-64 vcom 10.2b Compiler 2013.05 May 17 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VCOMPONENTS
+# -- Loading package ibfb_comm_package
+# -- Compiling entity ibfb_packet_player_tb
+# -- Compiling architecture test of ibfb_packet_player_tb
+# vsim -gui -t ps -novopt work.ibfb_packet_player_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading unisim.vcomponents
+# Loading work.ibfb_comm_package
+# Loading work.ibfb_packet_player_tb(test)
+# Loading work.ibfb_packet_player(rtl)
+# Loading work.ram_infer_dual(syn)
+# Loading work.pkg_crc
+# Loading work.ibfb_packet_tx(rtl)
+# Loading work.crc8_in32(imp_crc)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading unisim.vpkg(body)
+# Loading unisim.fifo36(fifo36_v)
+# Loading ieee.std_logic_arith(body)
+# Loading unisim.afifo36_internal(afifo36_internal_v)
+# Loading work.ibfb_packet_rx(rtl)
+# hexadecimal
+# ** Error: (vish-4014) No objects found matching '/ibfb_packet_player_tb/pl_valid'.
+# Executing ONERROR command at macro ./wave_player.do line 29
+# ** Error: (vish-4014) No objects found matching '/ibfb_packet_player_tb/pl_data'.
+# Executing ONERROR command at macro ./wave_player.do line 31
+# ** Error: (vish-4014) No objects found matching '/ibfb_packet_player_tb/tx_sop'.
+# Executing ONERROR command at macro ./wave_player.do line 62
+# ** Error: (vish-4014) No objects found matching '/ibfb_packet_player_tb/tx_valid'.
+# Executing ONERROR command at macro ./wave_player.do line 63
+# ** Error: (vish-4014) No objects found matching '/ibfb_packet_player_tb/tx_busy'.
+# Executing ONERROR command at macro ./wave_player.do line 65
+# ** Error: (vish-4014) No objects found matching '/ibfb_packet_player_tb/tx_isk'.
+# Executing ONERROR command at macro ./wave_player.do line 67
+# ** Error: (vish-4014) No objects found matching '/ibfb_packet_player_tb/tx_data'.
+# Executing ONERROR command at macro ./wave_player.do line 69
+add wave -position 13  sim:/ibfb_packet_player_tb/pkt_tx_busy
+add wave -position 14  sim:/ibfb_packet_player_tb/pkt_tx_eop
+add wave -position 15  sim:/ibfb_packet_player_tb/pkt_tx_sop
+add wave -position 16  sim:/ibfb_packet_player_tb/player_odata
+add wave -position 17  sim:/ibfb_packet_player_tb/player_ovalid
+add wave -position 19  sim:/ibfb_packet_player_tb/txf_charisk
+add wave -position 20  sim:/ibfb_packet_player_tb/txf_data
+add wave -position 21  sim:/ibfb_packet_player_tb/txf_full
+add wave -position 22  sim:/ibfb_packet_player_tb/txf_write
+add wave -position 26  sim:/ibfb_packet_player_tb/rx_valid
+add wave -position 27  sim:/ibfb_packet_player_tb/rx_empty
+add wave -position 28  sim:/ibfb_packet_player_tb/rx_isk
+add wave -position 29  sim:/ibfb_packet_player_tb/rx_data
+add wave -position 33  sim:/ibfb_packet_player_tb/rx_good
+add wave -position 34  sim:/ibfb_packet_player_tb/rx_pkt
+WW
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_TX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_TX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_TX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 1  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 1  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /ibfb_packet_player_tb/PLAYER_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 60 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 60 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 90 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 90 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 110 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 110 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 140 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 140 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 220 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 220 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 230 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 230 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 240 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 240 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 260 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 260 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 270 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 270 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 280 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 280 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 290 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 290 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 310 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 310 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 320 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 320 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 330 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 330 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 340 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 340 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 370 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 370 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 380 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 380 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 390 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 390 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 410 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 410 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 420 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 420 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 430 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 430 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 440 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 440 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 460 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 460 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 470 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 470 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 480 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 480 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 490 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 490 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+run
+S
+run
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 2010 ns  Iteration: 1  Instance: /ibfb_packet_player_tb/PLAYER_I
+run
+WW
+restart -force; run 2 us
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_TX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_TX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 0  Instance: /ibfb_packet_player_tb/PKT_TX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 1  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 100 ps  Iteration: 1  Instance: /ibfb_packet_player_tb/PKT_RX_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /ibfb_packet_player_tb/PLAYER_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 30 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 60 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 60 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 70 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 90 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 90 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 110 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 110 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 130 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 140 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 140 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 180 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 190 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 210 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 220 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 220 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 230 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 230 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 240 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 240 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 260 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 260 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 270 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 270 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 280 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 280 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 290 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 290 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 310 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 310 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 320 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 320 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 330 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 330 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 340 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 340 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 370 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 370 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 380 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 380 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 390 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 390 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 410 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 410 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 420 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 420 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 430 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 430 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 440 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 440 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 460 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 460 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 470 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 470 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 480 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 480 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 490 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 490 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ns  Iteration: 0  Instance: /ibfb_packet_player_tb/PLAYER_I/PKT_RAM_I
+force -freeze sim:/ibfb_packet_player_tb/pl_start 1 0
+run
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 2010 ns  Iteration: 1  Instance: /ibfb_packet_player_tb/PLAYER_I
+run
+WW
